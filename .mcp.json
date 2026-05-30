@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "arduino": {
+      "command": "npx",
+      "args": ["-y", "arduino-mcp-server"],
+      "env": {
+        "ARDUINO_CLI_PATH": "arduino-cli",
+        "ARDUINO_SKETCH_ROOT": "${workspaceFolder}"
+      }
+    }
+  }
+}
